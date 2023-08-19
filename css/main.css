@@ -539,22 +539,31 @@ body {
         width: 500px;
     }
     .logo {
-        color: var(--text-color);
+        color: #2F2E2E;;
         font-family: 'Barlow', sans-serif;
-        font-size: 36px;
-        margin: 29px 0 29px 29px;
+        font-size: 50px;
+        margin: 30px 0 30px 30px;
     }
     .sidenav .divider {
-        background-color: #2F2E2E;;
-        width: 80%;
-        margin: 8px 0 29px 29px;
+        background-color: rgb(117, 146, 192);
+        width: 90%;
+        margin: 8px 0 20px 20px;
     }
     .sidenav .waves-effect {
         color: #2F2E2E;;
         font-family: 'Inter', sans-serif;
-        font-size: 20px;
+        font-size: 24px;
         font-weight: 400;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
+        -webkit-tap-highlight-color: rgb(117, 146, 192);
+    }
+    .li_flex {
+        display: flex;
+        justify-content: space-between;
+        padding: 24px 24px 20px 24px;
+    }
+    .sidenav .sidenav-close {
+        padding: 0;
     }
     .header_h2 {
         font-size: 40px;
@@ -625,7 +634,7 @@ body {
 }
 @media screen and (max-width: 600px) {
     .sidenav {
-        width: 300px;
+        width: 400px;
     }
     .nav_h4 {
         font-size: 36px;
@@ -691,6 +700,16 @@ body {
     }
 }  
 @media screen and (max-width: 400px) {
+    .sidenav {
+        width: 100%;
+    }
+    .logo {
+        font-size: 40px;
+        margin: 0 0 0 0;
+    }
+    .sidenav .waves-effect {
+        font-size: 18px;
+    }
     .header_img-gradient {
         width: 200px;
         height: 150px;
@@ -705,8 +724,8 @@ body {
     }
 }  
 @media screen and (max-width: 300px) {
-    .sidenav {
-        width: 250px;
+    .logo {
+        font-size: 30px;
     }
     .projects_h2 {
         font-size: 38px;

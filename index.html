@@ -21,9 +21,9 @@
                 <div class="nav_flex-wrap">
                     <ul class="nav_flex-list">
                         <li ><a class="active" href="#">Home</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#project">Projects</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                     <div class="nav_search">
                         <form class="nav_form" id="forma" action="">
@@ -40,16 +40,14 @@
     </section>
     <!-- Бургер-меню -->
     <ul id="slide-out" class="sidenav">
-        <li><div class="logo">ArchiWeb</div></li>
+        <li class="li_flex"><div class="logo">ArchiWeb</div><a href="#!" class="sidenav-close"><img src="img/close.svg"></a></li>
         <li><div class="divider"></div></li>
         <li><a class="waves-effect" href="#header">Home</a></li>
-        <li><a class="waves-effect" href="#services">Services</a></li>
-        <li><a class="waves-effect" href="#about_us">About Us</a></li>
-        <li><a class="waves-effect" href="#projects">Projects</a></li>
-        <li><a class="waves-effect" href="#testimonialv">Testimonialv</a></li>
-        <li><a class="waves-effect" href="#footer">Contacts</a></li>
+        <li><a class="waves-effect" href="#project">Projects</a></li>
+        <li><a class="waves-effect" href="#about">About</a></li>
+        <li><a class="waves-effect" href="#contact">Contacts</a></li>
     </ul>
-    <header class="header">
+    <header class="header" id="header">
         <img src="img/header_img.png" alt="" class="header_img">
         <div class="container">
                 <div class="header_img-gradient">
@@ -86,7 +84,7 @@
             </div>
         </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
             <div class="about_flex">
                 <img class="about_img" src="img/about_img.png" alt="">
                 <div class="about_text">
@@ -101,7 +99,7 @@
                 </div>
             </div>
     </section>
-    <section class="projects">
+    <section class="projects" id="project">
         <div class="container">
             <h2 class="projects_h2">Our Projects</h2>
             <div class="projects_grid">
@@ -163,7 +161,7 @@
             </div>
         </div>
     </section>
-    <footer class="footer">
+    <footer class="footer" id="contact">
         <div class="container">
             <div class="footer_flex">
                 <div class="footer_flex-item">
